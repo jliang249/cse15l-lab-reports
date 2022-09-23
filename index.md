@@ -1,4 +1,4 @@
-The weather has been so weird!
+The wearther has been so werid!
 ---
 *Hello, I hate how hot it is*
 ---
