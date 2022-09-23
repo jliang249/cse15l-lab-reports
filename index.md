@@ -16,6 +16,6 @@ The weather has been so weird!
 ---
 `Inline code` with backticks
 ---
-#code block
+# code block
 print 'hello world and'
 print 'bye world'
