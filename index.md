@@ -15,6 +15,7 @@ The weather has been so weird!
 3. sunscreen 
 ---
 `Inline code` with backticks
+---
 #code block
 print 'hello world and'
 print 'bye world'
