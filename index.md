@@ -12,7 +12,8 @@ The weather has been so weird!
 ---
 1. water 
 2. food
-3. sunscreen
+3. sunscreen 
+---
 `Inline code` with backticks
 #code block
 print 'hello world and'
