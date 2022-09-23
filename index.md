@@ -1,7 +1,5 @@
 The wearther has been so werid!
----
 *Hello, I hate how hot it is*
----
 **I wish it would be colder right now**
 ---
 # Walking from class to class is so tiring
