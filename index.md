@@ -9,7 +9,6 @@ The wearther has been so werid!
 [Link](http://a.com)
 >Blockquote
 - pear 
-- apple
 - grapes
 ---
 1. water 
@@ -21,3 +20,4 @@ The wearther has been so werid!
 # code block
 print '3 backticks or'
 print indent 4 spaces'
+*yayayayya*
