@@ -2,9 +2,9 @@ The weather has been so weird!
 *Hello, I hate how hot it is*
 **I wish it would be colder right now**
 ---
-#Walking from class to class is so tiring
+# Walking from class to class is so tiring
 ---
-##Have to bring water or else it will be hard to survive
+## Have to bring water or else it will be hard to survive
 ---
 ![Image](http://url/a.png)
 [Link](http://a.com)
