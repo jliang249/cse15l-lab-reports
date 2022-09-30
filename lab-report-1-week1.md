@@ -8,8 +8,8 @@
 - Open a new terminal in VScode by using the dropdown menu from "Terminal" 
 - type in the command as follow but instead of jx, use the letters in your own course-specific account
 > $ ssh cs15lfa22jx@ieng6.ucsd.edu
-- The following message will pop up if it's the first time. Just go ahead and say yes to it just as follow. 
-![Attempt to log in message](step2.0.JPG) Log in by using the passcode you created in [Resetting Password](https://sdacs.ucsd.edu/~icc/index.php)
+- The following message will pop up if it's the first time. Just go ahead and say yes to it just as follow. Then log in by using the passcode you created in [Resetting Password](https://sdacs.ucsd.edu/~icc/index.php)
+![Attempt to log in message](step2.0.JPG) 
 - Once login, these informations will pop up 
 
 ![Login Messages](step2.2.PNG)
