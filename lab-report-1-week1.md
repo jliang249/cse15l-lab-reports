@@ -9,6 +9,7 @@
 - type in the command as follow but instead of jx, use the letters in your own course-specific account
 > $ ssh cs15lfa22jx@ieng6.ucsd.edu
 - The following message will pop up if it's the first time. Just go ahead and say yes to it just as follow. Then log in by using the passcode you created in [Resetting Password](https://sdacs.ucsd.edu/~icc/index.php)
+
 ![Attempt to log in message](step2.0.JPG) 
 - Once login, these informations will pop up 
 
@@ -21,9 +22,13 @@
 - Now that we are in the remote computer, we can test out some commands to see the difference when running it on the remote vs. physical device 
 - I run the command pwd on both the remote and physical device here is the two results.
     
-    **remote device**: ![remote device print out](step3.0.PNG)
+    **remote device**: 
+    
+    ![remote device print out](step3.0.PNG)
 
-    **physical device**: ![physical device print out](step3.1.PNG)
+    **physical device**: 
+    
+    ![physical device print out](step3.1.PNG)
 
     The usernames are different and the directory are also different. This make sense as they are both two different devices. 
 
