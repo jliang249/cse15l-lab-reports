@@ -7,7 +7,7 @@
 **Step 2: Remotely Connecting**
 - Open a new terminal in VScode by using the dropdown menu from "Terminal" 
 - type in the command as follow but instead of jx, use the letters in your own course-specific account
-> $ ssh cs15lfa22jx@ieng6.ucsd.edu
+    > $ ssh cs15lfa22jx@ieng6.ucsd.edu
 - The following message will pop up if it's the first time. Just go ahead and say yes to it just as follow. Then log in by using the passcode you created in [Resetting Password](https://sdacs.ucsd.edu/~icc/index.php)
 
     ![Attempt to log in message](step2.0.JPG) 
@@ -20,7 +20,7 @@
 
 **Step 3: Trying Some Commands**
 - Now that we are in the remote computer, we can test out some commands to see the difference when running it on the remote vs. physical device 
-- I run the command pwd on both the remote and physical device here is the two results.
+- I run the command pwd on both the remote and physical device here is the two results
     
     **remote device**: 
     
@@ -30,7 +30,7 @@
     
     ![physical device print out](step3.1.PNG)
 
-    The usernames are different and the directory are also different. This make sense as they are both two different devices. 
+    **Note**: The usernames are different and the directory are also different. This make sense as they are both two different devices. 
 
 
 **Step 4: Moving Files with scp**
@@ -40,32 +40,42 @@
 
 - Since I don't have java install on my device, I skip the printint out WhereAmI.java on my device 
 - use the following code to copy the WhereAmI.java over to the remote device 
->scp WhereAmI.java jil249@ieng6.ucsd.edu:~/ 
+    >scp WhereAmI.java jil249@ieng6.ucsd.edu:~/ 
 - If it's done correctly, it should look like the following picture 
 
     ![SCP](step4.1.PNG)
 
 - On youre remote device, use the following code to run the command from WhereAmI.java
->javac WhereAmI.java
+    >javac WhereAmI.java
 
->java WhereAmI
+    >java WhereAmI
 
-- If you have java install on your physical device, the result will be different compare to the one outputed in the remote device. This is because the username, operating system, and user directory are all different on the two different devices. 
+- If you have java install on your physical device, the result will be different compare to the one outputed in the remote device. This is because the username, operating system, and user directory are all different on the two different devices 
 
     ![Output on remote device](step4.2.PNG)
 
 **Step 5: Setting an SSH Key**
 - On the client (your own device) type in the following code and press enter until your screen look as follow 
-> ssh-keygen -t ed25519
+    > ssh-keygen -t ed25519
 
  ![Output on client for ssh](step5.0.PNG)
 
 My device is a widow, which is why I use the window user step rather than the one for Mac users. 
 
 - On the server, type in the following code 
->mkdir .ssh
+    >mkdir .ssh
 
 - Then, back to the client and type in the following code
->scp 
+    >scp "/Users/Jiayi Liang/.ssh/id_ed25519.pub" jil249@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+    **Note**: Disregard the quotation if your username has no space. If your username has a space like, "Jiayi Liang," then make sure to put the commend in quotation like above. I learned from a classmate that computer REALLY hate space and without the quotation, the command will not work.
+
+- The following message will pop up if it's copied successfully to the remote computer 
+
+    ![Copy ssh key successful](step5.1.PNG)
+
+- Now, we can log in into the remote computer without needing to type in our password as shown below. This will save us time when it comes to changing commend and copying over to the remote computer 
+
+    ![ssh without password](step5.2.PNG)
 
 **Step 6: Optimizing Remote Running**
