@@ -58,7 +58,7 @@
 - On the client (your own device) type in the following code and press enter until your screen look as follow 
     > ssh-keygen -t ed25519
 
- ![Output on client for ssh](step5.0.PNG)
+    ![Output on client for ssh](step5.0.PNG)
 
 My device is a widow, which is why I use the window user step rather than the one for Mac users. 
 
