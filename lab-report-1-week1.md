@@ -11,6 +11,7 @@
 - The following message will pop up if it's the first time. Just go ahead and say yes to it just as follow. 
 ![Attempt to log in message](step2.0.JPG) Log in by using the passcode you created in [Resetting Password](https://sdacs.ucsd.edu/~icc/index.php)
 - Once login, these informations will pop up 
+
 ![Login Messages](step2.2.PNG)
 - **Note**: My login is not cse15lfa22jx@ieng6.ucsd.edu as it should be because it's not working as can be seen in the following failed attempts. So, I had to use my AD login for this lab. 
 ![Failed Login](step2.3.PNG)
