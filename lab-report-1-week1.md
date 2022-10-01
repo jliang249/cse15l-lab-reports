@@ -15,7 +15,7 @@
 
     ![Login Messages](step2.2.PNG)
  
-    **Note**: My login is not cse15lfa22jx@ieng6.ucsd.edu as it should be because it's not working as can be seen in the following failed attempts. So, I had to use my AD login for this lab. 
+    **Note: My login is not cse15lfa22jx@ieng6.ucsd.edu as it should be because it's not working as can be seen in the following failed attempts. So, I had to use my AD login for this lab.**
 
     ![Failed Login](step2.3.PNG)
 
@@ -31,7 +31,7 @@
     
     ![physical device print out](step3.1.PNG)
 
-    **Note**: The usernames are different and the directory are also different. This make sense as they are both two different devices. 
+    **Note: The usernames are different and the directory are also different. This make sense as they are both two different devices.** 
 
 
 **Step 4: Moving Files with scp**
@@ -61,7 +61,7 @@
 
     ![Output on client for ssh](step5.0.PNG)
 
-    **Note**: My device is a widow, which is why I use the window user step rather than the one for Mac users. Which is just ssh-keygen.
+    **Note: My device is a widow, which is why I use the window user step rather than the one for Mac users. Which is just ssh-keygen.**
 
 - On the server, type in the following code 
     >mkdir .ssh
@@ -69,7 +69,7 @@
 - Then, back to the client and type in the following code
     >scp "/Users/Jiayi Liang/.ssh/id_ed25519.pub" jil249@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
-    **Note**: Disregard the quotation if your username has no space. If your username has a space like, "Jiayi Liang," then make sure to put the commend in quotation like above. I learned from a classmate that computer REALLY hate space and without the quotation, the command will not work.
+    **Note: Disregard the quotation if your username has no space. If your username has a space like, "Jiayi Liang," then make sure to put the commend in quotation like above. I learned from a classmate that computer REALLY hate space and without the quotation, the command will not work.**
 
 - The following message will pop up if it's copied successfully to the remote computer 
 
@@ -94,4 +94,4 @@
 
         **This uses a total of 6 keystrokes to run after editing and saving.**
 
-    **Note**: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you still have to type out the full scp and ssh commend. 
+    **Note: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you still have to type out the full scp and ssh commend.** 
