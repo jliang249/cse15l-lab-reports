@@ -92,6 +92,6 @@
     1. use the arrow key twice and enter key once to run the scp command after a edit and save 
     2. use the arrow key twice again to get the ssh commend and then enter key once for the WhereAmI.java file to run on the remote computer 
 
-        *This uses a total of 6 keystrokes to run after editing and saving.* 
+        **This uses a total of 6 keystrokes to run after editing and saving.**
 
     **Note**: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you still have to type out the full scp and ssh commend. 
