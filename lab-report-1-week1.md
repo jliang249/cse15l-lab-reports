@@ -85,11 +85,10 @@ My device is a widow, which is why I use the window user step rather than the on
 
 - I then use the following two command to copy and run the WhereAmI.java on the remote device 
 
-    ![Remote Device](step6.0.PNG)
-- This requires more than 10 keystrokes for the total time of a run after editing and saving 
-- The best process that I can come up with is to 
+    ![Remote Device](step6.2.PNG)
+- The best process that I can come up with is to (what I used in the picture above)
 
     1. use the arrow key twice and enter key once to run the scp command after a edit and save 
     2. use the arrow key twice again to get the ssh commend and then enter key once for the WhereAmI.java file to run on the remote computer 
 
-    **Note**: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you will have to type out the scp and ssh commend first. 
+    **Note**: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you still have to type out the full scp and ssh commend. 

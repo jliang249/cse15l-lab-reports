@@ -5,6 +5,6 @@ class WhereAmI {
     System.out.println(System.getProperty("user.home"));
     
     System.out.println("Welcome!");
-    System.out.println("Hello, my friends!")
+    System.out.println("Make sure to drink water, since it has been so hot!");
   }
 }
