@@ -14,7 +14,7 @@
 - Once login, these informations will pop up 
 
     ![Login Messages](step2.2.PNG)
-- **Note**: My login is not cse15lfa22jx@ieng6.ucsd.edu as it should be because it's not working as can be seen in the following failed attempts. So, I had to use my AD login for this lab. 
+ **Note**: My login is not cse15lfa22jx@ieng6.ucsd.edu as it should be because it's not working as can be seen in the following failed attempts. So, I had to use my AD login for this lab. 
 
     ![Failed Login](step2.3.PNG)
 
