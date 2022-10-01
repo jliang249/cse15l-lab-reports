@@ -61,7 +61,7 @@
 
     ![Output on client for ssh](step5.0.PNG)
 
-    **Note**: My device is a widow, which is why I use the window user step rather than the one for Mac users. 
+    **Note**: My device is a widow, which is why I use the window user step rather than the one for Mac users. Which is just ssh-keygen.
 
 - On the server, type in the following code 
     >mkdir .ssh
