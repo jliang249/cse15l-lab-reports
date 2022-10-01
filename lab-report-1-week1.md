@@ -79,3 +79,17 @@ My device is a widow, which is why I use the window user step rather than the on
     ![ssh without password](step5.2.PNG)
 
 **Step 6: Optimizing Remote Running**
+- Using what we learned, I first made some changes to the WhereAmI.java file on my device as follow 
+
+    ![Changes on WhereAmI.java](step6.1.PNG)
+
+- I then use the following two command to copy and run the WhereAmI.java on the remote device 
+
+    ![Remote Device](step6.0.PNG)
+- This requires more than 10 keystrokes for the total time of a run after editing and saving 
+- The best process that I can come up with is to 
+
+    1. use the arrow key twice and enter key once to run the scp command after a edit and save 
+    2. use the arrow key twice again to get the ssh commend and then enter key once for the WhereAmI.java file to run on the remote computer 
+
+    **Note**: Though, this require scp and ssh commend to be previously typed once. This will make the edit and running work faster but doesn't make the first run faster as you will have to type out the scp and ssh commend first. 
