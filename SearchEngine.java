@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.net.URI;
 
-class Handler implements URLHandler {
+class SearchEngine implements NumberServer {
     String s ="";
 
 
