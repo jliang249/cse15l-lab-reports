@@ -106,6 +106,7 @@ This is my Simplest Search Engine from week 2:
 
     After the request is done processing, the code ran through all the methods trying to find the one for find, in which it realizes that /find doesn't fit in any of the requirement, hence, it returned "404 Not Found" which will be return if there is no method to process /find.
 
+**Note:** I ran the SearchEngine.java on the remote computer because I didn't have java downloaded on my device at that time. 
 
 **Part 2**
 
