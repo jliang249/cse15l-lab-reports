@@ -36,6 +36,7 @@ class Handler implements URLHandler {
                             templist = templist + str.get(i) + ", ";
                         }
                     }
+                    return templist;
                 }
             }
             return "404 Not Found!";
