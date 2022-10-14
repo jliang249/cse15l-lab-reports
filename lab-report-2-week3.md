@@ -1,6 +1,6 @@
 **Part 1**
 
-This is my Simplest Search Engine from week 2
+This is my Simplest Search Engine from week 2:
 
     import java.io.IOException;
     import java.net.URI;
@@ -61,10 +61,12 @@ This is my Simplest Search Engine from week 2
     }
 
 Screenshot 1: 
-    
-- method called: 
 
-- values of the relevant arguments: 
+![add method](part1add.png)
+    
+- method called: /add
+
+- values of the relevant arguments: bunny
 
 - values of any relevant fields of the class: 
 
