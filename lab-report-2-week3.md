@@ -64,33 +64,47 @@ Screenshot 1:
 
 ![add method](part1add.png)
     
-- method called: /add
+- method called: /add()
 
 - values of the relevant arguments: bunny
 
 - values of any relevant fields of the class: 
 
-- how does values change by the time the request is doen provessing: 
+        if (url.getPath().contains("/add")) 
+
+- how does values change by the time the request is done processing: 
+
+    By the time the request is done processing, the value fo the relevant argument is added to the string and "String added!" is return.
 
 Screenshot 2: 
-    
-- method called: 
 
-- values of the relevant arguments: 
+![search method](part1search.png)
+    
+- method called: /search()
+
+- values of the relevant arguments: app
 
 - values of any relevant fields of the class: 
 
-- how does values change by the time the request is doen provessing: 
+         else if(url.getPath().contains("/search"))
+
+- how does values change by the time the request is done processing: 
+
+    By the time the request is done processing, a list that contains the string that has the input value will be returned and be display. 
 
 Screenshot 3: 
+
+![not found](part1notfound.png)
     
-- method called: 
+- method called: none
 
-- values of the relevant arguments: 
+- values of the relevant arguments: bo
 
-- values of any relevant fields of the class: 
+- values of any relevant fields of the class: none
 
-- how does values change by the time the request is doen provessing: 
+- how does values change by the time the request is done processing: 
+
+    After the request is done processing, the code ran through all the methods trying to find the one for find, in which it realizes that /find doesn't fit in any of the requirement, hence, it returned "404 Not Found" which will be return if there is no method to process /find.
 
 **Part 2**
 
