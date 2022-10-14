@@ -106,6 +106,7 @@ Screenshot 3:
 
     After the request is done processing, the code ran through all the methods trying to find the one for find, in which it realizes that /find doesn't fit in any of the requirement, hence, it returned "404 Not Found" which will be return if there is no method to process /find.
 
+
 **Part 2**
 
 Bug #1: reverseInPlace() from ArrayExamples.java
