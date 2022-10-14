@@ -60,7 +60,7 @@ This is my Simplest Search Engine from week 2:
         }
     }
 
-Screenshot 1: 
+**Screenshot 1:** 
 
 ![add method](part1add.png)
     
@@ -76,7 +76,7 @@ Screenshot 1:
 
     By the time the request is done processing, the value fo the relevant argument is added to the string and "String added!" is return.
 
-Screenshot 2: 
+**Screenshot 2:** 
 
 ![search method](part1search.png)
     
@@ -92,7 +92,7 @@ Screenshot 2:
 
     By the time the request is done processing, a list that contains the string that has the input value will be returned and be display. 
 
-Screenshot 3: 
+**Screenshot 3:** 
 
 ![not found](part1notfound.png)
     
