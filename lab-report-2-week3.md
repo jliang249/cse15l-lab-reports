@@ -1,6 +1,6 @@
 **Part 1**
 
-This is my Simplest Search Engine from week 2:
+This is my Simplest Search Engine from week 2
 
     import java.io.IOException;
     import java.net.URI;
