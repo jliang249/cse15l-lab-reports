@@ -163,8 +163,7 @@ Bug #2: merge() from ListExamples.java
 
 - Fixing the bug: 
 
-    ![bug2 fix](bug2fix.PNG)
-    I changed **index1** to **index2** so the increment index is 2 rather than 1 and the process can move down the list to merge the list together rather than suck at incrementing 1 and having **index2** less than **list2.size**
+    I changed **index1** to **index2** in the code showed in the screenshot in "The bug" so the increment index is 2 rather than 1 and the process can move down the list to merge the list together rather than suck at incrementing 1 and having **index2** less than **list2.size**
 
 - Connection between the symptom and the bug: 
 
