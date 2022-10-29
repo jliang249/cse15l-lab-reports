@@ -2,7 +2,8 @@
 
 *Note: in technical directory already*
 
-**1st Option:** >-w
+**1st Option:** 
+> -w
 
     
 - Example 1: 
@@ -30,7 +31,8 @@
 
     The -w here look through all the .txt files in the technical directory and found no files contain the phrase "the negative affect." This help us to save time from needing to go through files after files just to see whether or not it contains the information we are looking for.
 
-**2nd Option:** > -n
+**2nd Option:** 
+> -n
 
 - Example 1: 
 
@@ -58,7 +60,8 @@
 
 *Note: a good thing to know is that -n looks for word that is able to match the same pattern of the given string, it will still count those that has more than just the given pattern. Ex: damages will also be counted if the input is "damage"*
 
-**3rd Option:** >-c
+**3rd Option:** 
+>-c
 
 - Example 1: 
 
