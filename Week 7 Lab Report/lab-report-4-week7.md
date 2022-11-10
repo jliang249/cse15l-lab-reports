@@ -68,9 +68,30 @@ Shortest Sequence of vim commands:
 
     ![save](1.11.PNG)
     :wq and < Enter > will save the changes on the files and exit out of vim 
-    
+
 
 **Total Key Pressed: 26 keys pressed for vim commands**
 
 
 **Part 2**
+
+1. 105 secs
+
+    Diffculties: 
+    - It was harder to find every "start" that needs to be change to "base" and make sure I didn't miss any of it. 
+    - Ran bash forgetting to cd into the folder and directory that contained the files and did it on home directory right after ssh
+    
+
+
+
+2. 53 secs 
+
+    Diffculties: 
+    - making sure in insert mode before typing 
+
+
+Questions: 
+
+1. If I had to work on a program remotely, I would prefer using the second method where I had already log into ssh and make the edit in Vim. This is because vim has a lot of commands that help to make the process easier and more efficent. In vim, I don't have to relay on my own to search for words that need to be change. It also has a command to repeat the earlier command, which mean more time effcient. Furthermore, once I finish the editing, I can just exit vim and run the test rather having to scp then ssh then cd to the folder and directory to run the test. Scp and ssh takes away a lot of time and typos can easily occur causing things to go slower. 
+
+2. I don't think anything would affect my decision. This is because as far as I have work with vim, it has showed that it's more efficient for editing files compare to doing it locally then sending it to remote. Its features allow less msitake and less typing. The fact that I can repeat command and use tools rather than my own ability to do task makes it more reliable. This is because if I'm doing it without vim and the project require looking over thousand lines of code, then I think I will be lost before I can even finish the task. 
