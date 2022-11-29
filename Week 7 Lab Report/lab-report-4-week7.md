@@ -23,7 +23,7 @@ Shortest Sequence of vim commands:
 
     ![search](1.2.1.PNG)
     
-    After hitting enter, the cursor will automatically be at the begining of the word that we are trying to find
+    After hitting `<Enter>`, the cursor will automatically be at the begining of the word that we are trying to find
 
 5. `dw` (2 keys pressed)
 
